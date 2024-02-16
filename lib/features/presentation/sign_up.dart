@@ -62,7 +62,7 @@ class _SignUpPageState extends State<SignUpPage> {
                   Button(name: "Sign Up", bgc: Colors.black, txtc: Colors.white, bdrc: Colors.black,
                   nav: (){
                     Navigator.push(context, MaterialPageRoute(builder: (context) {
-                      return const HomeTab();
+                      return const HomePage();
                     },));
                   })
                 ],
